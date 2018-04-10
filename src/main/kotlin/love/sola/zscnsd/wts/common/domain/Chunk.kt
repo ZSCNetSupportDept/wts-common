@@ -1,4 +1,4 @@
-package love.sola.zscnsd.wts.common.domain.enums
+package love.sola.zscnsd.wts.common.domain
 
 /**
  * @author Sola

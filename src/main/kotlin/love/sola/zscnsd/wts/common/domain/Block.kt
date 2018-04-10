@@ -1,7 +1,6 @@
-package love.sola.zscnsd.wts.common.domain.enums
+package love.sola.zscnsd.wts.common.domain
 
-import love.sola.zscnsd.wts.common.domain.enums.Chunk
-import love.sola.zscnsd.wts.common.domain.enums.Chunk.*
+import love.sola.zscnsd.wts.common.domain.Chunk.*
 
 /**
  * @author Sola
