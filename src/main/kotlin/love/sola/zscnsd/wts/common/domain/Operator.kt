@@ -9,11 +9,10 @@ class Operator(
     val permissions: List<String>,
     id: Long,
     name: String,
-    password: String?,
     phone: String?,
     address: Address?,
     account: IspAccount?
-) : User(id, name, password, phone, address, account) {
+) : User(id, name, phone, address, account) {
 
     companion object {
         private val ROLE_OPERATOR = SimpleGrantedAuthority("ROLE_OPERATOR")

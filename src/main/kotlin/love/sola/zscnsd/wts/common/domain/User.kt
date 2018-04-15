@@ -17,7 +17,6 @@ import org.springframework.security.core.userdetails.UserDetails
 open class User(
     val id: Long,
     val name: String,
-    private val password: String?,
     val phone: String?,
     val address: Address?,
     val account: IspAccount?
@@ -29,7 +28,7 @@ open class User(
 
     override fun getUsername() = id.toString() //We use id as identity
 
-    override fun getPassword() = password
+    override fun getPassword() = "N/A"
 
     override fun getAuthorities(): Collection<GrantedAuthority> = listOf(ROLE_USER)
 
